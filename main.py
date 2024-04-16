@@ -3,7 +3,7 @@ from game_interpreter import GameInterpreter
 
 interpreter = GameInterpreter()
 
-# Define game
+# Define game properly
 game = GameDefinition()
 game.create_room("Living Room", "You are in the living room. It's cozy here.")
 game.create_room("Kitchen", "You are in the kitchen. There's a delicious smell.")
